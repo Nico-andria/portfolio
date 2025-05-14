@@ -135,6 +135,11 @@ body {
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
 }
+.btn:hover {
+  background: #1f242d;
+  border: 1px solid #0ef;
+  color: #0ef;
+}
 /* KEYFRAMES ANIMATION */
 @keyframes slideRight {
   0% {
@@ -775,9 +780,39 @@ main.row {
   margin: 10px;
   background: #1f242d;
   border: 1px solid #0ef;
+  height: 450px;
+  margin-bottom: 30px;
 }
 .btn-inverse {
   background: #1f242d;
   border: 1px solid #0ef;
   color: #0ef;
+}
+.btn-inverse:hover {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #0ef;
+  border-radius: 40px;
+  box-shadow: 0 0 10px #0ef;
+  font-size: 16px;
+  color: #1f242d;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: 600;
+  opacity: 0;
+  animation: slideTop 1s ease forwards;
+  animation-delay: 2s;
+}
+.card-title {
+  color: #0ef;
+}
+.card-text {
+  color: #fff;
+}
+.project_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
 }
